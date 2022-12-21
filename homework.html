@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 1</title>
+
+    <style>
+        body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        width: 100vw;
+        padding: 0%;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+            min-height: calc(100vh - 40vh);
+        }
+
+        h2{
+            margin-left: 1em;
+        }
+
+        header, footer {
+            display: flex;
+            background-color: black;
+            color: white;
+            height: 15vh;
+            width: 100%;
+        }
+        article {
+            background-color: white;
+            flex-basis: 60%;
+        }
+        aside {
+            background-color:#320388 ;
+            color: white;
+            flex-basis: 20%;
+        }
+        nav{
+            background-color: #C22177;
+            flex-grow: 1;
+            color:white;
+        }
+        </style>
+  </head>
+  <body>
+    <header>
+        <h2>Header</h2>
+      </header>
+      <main>
+        <article>
+          <h2>Article</h2>
+        </article>
+        <aside>
+          <h2>Aside</h2>
+        </aside>
+        <nav>
+          <h2>Nav</h2>
+        </nav>
+      </main>
+      <footer>
+        <h2>Footer</h2>
+      </footer>
+
+  </body>
+</html>
+

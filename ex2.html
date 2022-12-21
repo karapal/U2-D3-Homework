@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 2</title>
+    <style>
+    body {
+        margin: 0 auto;
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    .main {
+        display: flex;
+        margin: 0 auto;
+        min-height: 100%;
+        min-width: 100%;
+    }
+    nav {
+        display: flex;
+        align-items: stretch;
+        width: 20vh;
+        height: 100vh;
+        color: white;
+        background-color: #c22177;
+    }
+    h2 {
+        margin-left: 1em;
+    }
+    header, footer {
+        display: flex;
+        width: 185vh;
+        height: 15vh;
+        background-color: black;
+        color: white;
+    }
+    .inner-container {
+        display: flex;
+        min-height: 70vh;
+    }
+    article {
+        display: flex;
+        flex-grow: 1;
+        margin-top: 0;
+        color: #111023;
+    }
+    aside {
+        color: white;
+        background-color: #320388;
+        width: 20%;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <main class="main">
+        <nav>
+            <h2>Nav</h2>
+        </nav>
+
+        
+            <header>
+                <h2>Header</h2>
+            </header>
+            <div class="inner-container">
+                <article class="header">
+                    <h2>Article</h2>
+                </article>
+                <aside>
+                    <h2>Aside</h2>
+                </aside>
+            </div>
+            <footer>
+                <h2>Footer</h2>
+            </footer>
+    </main>
+
+  </body>
+</html>

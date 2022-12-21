@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3</title>
+    <style>
+        
+        body {
+            margin: 0 auto;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+        .main {
+            display: flex;
+            margin: 0 auto;
+            min-height: 100%;
+            min-width: 100%;
+        }
+        nav {
+            display: flex;
+            align-items: stretch;
+            width: 20vh;
+            height: 100vh;
+            padding-inline: 1%;
+            color: white;
+            background-color: #c22177;
+        }
+        .side-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        h2 {
+            margin-left: 1em;
+        }
+        header {
+            display: flex;
+            width: 185vh;
+            height: 15vh;
+            background-color: #111023;
+            color: white;
+        }
+        .inner-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 70vh;
+            width: calc(185vh - 20%);
+        }
+        footer {
+            height: 15vh;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        article {
+            height: calc(85vh - 15vh);
+            align-content: stretch;
+            margin-top: 0;
+        }
+        .aside-container {
+            display: flex;
+            flex-direction: column;
+        }
+        aside {
+            width: 37vh;
+            height: 100%;
+            color: white;
+            background-color: #320388;
+        }
+
+
+    </style>
+  </head>
+    <body>
+        <main class="main">
+            <nav>
+                <h2>Nav</h2>
+            </nav>
+            <div class="side-container">
+                <header>
+                    <h2>Header</h2>
+                </header>
+                <div class="inner-container">
+                    <article class="header">
+                        <h2>Article</h2>
+                    </article>
+                    <footer>
+                        <h2>Footer</h2>
+                    </footer>
+                </div>
+    
+                <div class="aside-container">
+                    <aside>
+                        <h2>Aside</h2>
+        
+        
+      
+                    </aside>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+    
